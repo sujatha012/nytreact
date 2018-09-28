@@ -4,7 +4,6 @@
   "description": "A Node, Express, MongoDB, and ReactJS application where users can query, display, and save articles from the New York Times Article Search API.",
   "main": "server.js",
   "scripts": {
-
       "start": "react-scripts start",
       "build": "react-scripts build",
       "test": "react-scripts test --env=jsdom",
@@ -28,7 +27,8 @@
     "morgan": "^1.7.0",
     "react": "^15.4.1",
     "react-dom": "^15.4.1",
-    "react-router": "^3.0.0"
+    "react-router": "^3.0.0",
+    "react-scripts": "1.1.5"
   },
   "devDependencies": {
     "babel-core": "^6.20.0",
