@@ -45,12 +45,12 @@ db.once('open', function () {
 });
 
 // Import the Article model
-var Article = require('./models/Article.js');
+var Article = require('./src/models/Article.js');
 // ---------------------------------------------------------------------------------------------------------------
 
 
 // Import Routes/Controller
-var router = require('./controllers/controller.js');
+var router = require('./src/controllers/controller.js');
 app.use('/', router);
 
 
