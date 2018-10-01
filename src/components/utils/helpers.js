@@ -42,6 +42,8 @@ var articleQuery = function (topic, beginYear, endYear) {
                 reject("");
             }
 
+        }).catch(error => {
+            console.log(error.response);
         });
     });
 
@@ -72,7 +74,9 @@ var apiSave = function (articleObj) {
                 reject("");
             }
 
-        })
+        }).catch(error => {
+            console.log(error.response);
+        });
 
     });
 
@@ -99,6 +103,8 @@ var apiGet = function () {
                 reject("");
             }
 
+        }).catch(error => {
+            console.log(error.response);
         });
 
     });
@@ -126,6 +132,8 @@ var apiDelete = function (deleteArticleId) {
                 reject("");
             }
 
+        }).catch(error => {
+            console.log(error.response);
         });
 
     });

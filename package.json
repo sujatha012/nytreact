@@ -2,23 +2,23 @@
   "name": "nyt-react",
   "version": "1.0.0",
   "description": "A Node, Express, MongoDB, and ReactJS application where users can query, display, and save articles from the New York Times Article Search API.",
-  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "build": "react-scripts build",
+    "heroku-postbuild": "webpack -p",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tomtom28/nyt-react.git"
+    "url": "git+https://github.com/sujatha012/nytreact.git"
   },
-  "author": "tomtom28",
+  "author": "sujatha012",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tomtom28/nyt-react/issues"
+    "url": "https://github.com/sujatha012/nytreact/issues"
   },
-  "homepage": "https://github.com/tomtom28/nyt-react#readme",
+  "homepage": "https://github.com/sujatha012/nytreact/issues",
   "dependencies": {
     "axios": "^0.18.0",
     "body-parser": "^1.18.3",
@@ -29,5 +29,13 @@
     "react-dom": "^16.5.2",
     "react-router": "^4.3.1",
     "react-scripts": "^1.1.5"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
   }
 }
