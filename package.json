@@ -1,5 +1,5 @@
 {
-  "name": "nyt-react",
+  "name": "nytreact",
   "version": "1.0.0",
   "description": "A Node, Express, MongoDB, and ReactJS application where users can query, display, and save articles from the New York Times Article Search API.",
   "main" : "server.js",
